@@ -1,3 +1,5 @@
-#grad {
-  background-image: linear-gradient(to bottom right, blue, black);
+body {
+    background: linear-gradient(to right, #2980b9, #3498db, #5eaef2, #a9cce3);
+	font: normal 20px Helvetica, Calibri, sans-serif;
+	color: white;
 }
