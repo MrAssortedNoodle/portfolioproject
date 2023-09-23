@@ -6,3 +6,4 @@ https://medium.com/@theenobledev/how-to-create-a-simple-portfolio-website-with-h
 https://www.w3schools.com/css/css3_gradients.asp
 https://www.simplilearn.com/tutorials/html-tutorial/link-css-files-to-html
 https://stackoverflow.com/questions/7025756/how-to-apply-global-font-to-whole-html-document
+https://www.w3schools.com/tags/att_a_download.asp
