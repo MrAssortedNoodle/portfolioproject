@@ -1,5 +1,33 @@
 body {
-    background: linear-gradient(to right, #2980b9, #3498db, #5eaef2, #a9cce3);
-	font: normal 20px Helvetica, Calibri, sans-serif;
-	color: white;
-}
+				font-family: Helvetica, sans-serif;
+				background: linear-gradient(to bottom, #ffffff, #007bff);
+				background-attachment: fixed;
+			}
+			.content {
+				max-width: 800px;
+				margin: 0 auto;
+				padding: 20px;
+				background-color: rgba(255, 255, 255, 0.75);
+				border-radius: 10px;
+				margin-top: 20px;
+			}
+			.panel {
+				margin-bottom: 20px;
+				padding: 20px;
+				background-color: #f8f8f8;
+				border: 1px solid #ccc;
+				border-radius: 5px;
+			}
+			.pure-menu-list {
+				background-color: rgba(255, 255, 255, 0.75);
+				border-radius: 10px;
+			}
+			.pure-menu-link {
+				color: #007bff;
+			}
+			footer {
+				text-align: center;
+				padding: 10px;
+				background-color: rgba(255, 255, 255, 0.75);
+				border-radius: 10px;
+			}
