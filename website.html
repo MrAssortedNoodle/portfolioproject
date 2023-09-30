@@ -1,43 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terra Luu's Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>Welcome one and all</h1>
-    </header>
+    <div class="pure-menu pure-menu-horizontal">
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item"><a href="#home" class="pure-menu-link">Home</a></li>
+            <li class="pure-menu-item"><a href="#about" class="pure-menu-link">About</a></li>
+            <li class="pure-menu-item"><a href="#experience" class="pure-menu-link">Experience</a></li>
+			<li class="pure-menu-item"><a href="#skills" class="pure-menu-link">Skills</a></li>
+			<li class="pure-menu-item"><a href="#skills" class="pure-menu-link">Contact</a></li>
+			<li class="pure-menu-item"><a href="Terra_Luu_Resume_General.docx" download class="pure-menu-link">Download Resume</a></li>
+        </ul>
+    </div>
 
-	<nav>
-	  <ul>
-		<li><a href="#home">Home</a></li>
-		<li><a href="./aboutme.html">About Me</a><li>
-		<li><a href="./aboutme.html">Experience</a><li>
-		<li><a href="./contact.html">Contact</a><li>
-		<!-- TODO below to different page -->
-		<li><a href="Terra Luu Resume General.docx" download>Resume</a>
-		<li><a href="https://github.com/MrAssortedNoodle">Github</a></li>
-	  </ul>
-	</nav>
+    <div class="content">
 
-    <main>
-        <section id="home" class="panel active-panel">
-            <h2>Home</h2>
-            <p>Please consult the above links for information related to me.</p>
+        <section id="home" class="panel">
+            <h2>Terra Luu's Porfolio</h2>
+            <p>This is my portfolio website. Consult the links and text for information about me.</p>
         </section>
 
         <section id="about" class="panel">
             <h2>About Me</h2>
-            <p>I'm Terra Luu, a Computer Science student at CSUF. This is my first website I've ever created from scratch. I hope you find it sufficiently pleasing.</p>
+            <p>I'm Terra Luu, a Computer Science student at CSUF. I'm a hobbyist game developer and AI enthusiast.</p>
         </section>
-    </main>
 
-    <footer>
-    </footer>
+        <section id="experience" class="panel">
+            <h2>Experience</h2>
+            <p>I've created a number of computer game prototypes, including a card game with a realtime responsive and interactive UI. I also worked in child science demonstration at Brainstorm STEM education, including teaching classes on robotics and programming.</p>
+        </section>
+		
+		<section id="skills" class="panel">
+            <h2>My Skills</h2>
+            <p>I can program comfortably in C++, C#, Java, and Python. I'm experienced in the Unity development engine, as well as image editing and sound editing programs including REAPER and GIMP.</p>
+        </section>
+		
+		<section id="contact" class="panel">
+            <h2>Contact</h2>
+			<p><a href="mailto:address@example.com">Contact me via email.</a></p>
+			<p><a href="https://github.com/MrAssortedNoodle" target="_blank">Visit my GitHub.</a></p>
+        </section>
+    </div>
 
 </body>
 </html>
